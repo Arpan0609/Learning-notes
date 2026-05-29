@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 This is branch A content
+
+This is branch B content
+>>>>>>> branch-b
+This is the merged content from both branch A and branch B
