@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files (NEVER commit these — contain passwords)
+.env
+.env.local
+*.env
+
+# Log files
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# SSH keys (NEVER commit these)
+*.pem
+*.key
+id_rsa
+id_ed25519
